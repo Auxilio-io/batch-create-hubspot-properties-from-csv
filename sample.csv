@@ -1,0 +1,14 @@
+label,type,fieldType,groupName,hidden,displayOrder,hasUniqueValue,formField,options,name,description,externalOptions,referencedObjectType,calculationFormula
+My Dropdown Property,enumeration,select,contactinformation,FALSE,1,FALSE,TRUE,Label 1:Description1:value_1:1:false|Label 2:Description 2:value_2:2:false,my_dropdown_property,Test,,,
+My Multiple Checkbox Property,enumeration,checkbox,contactinformation,FALSE,2,FALSE,FALSE,Label 1:Description1:value_1:1:false|Label 2:Description 2:value_2:2:false,my_multiple_checkbox_property,Test,,,
+My Owner Property,enumeration,select,contactinformation,FALSE,3,FALSE,FALSE,,my_owner_property,Test,TRUE,OWNER,
+My Calculation Property,number,calculation_equation,dealinformation,FALSE,16,FALSE,FALSE,,my_calculation_property,Test,,,amount / 100
+My Date Property,date,date,dealinformation,FALSE,,FALSE,FALSE,,my_date_property,Test,,,
+My Datetime Property,datetime,date,dealinformation,FALSE,,FALSE,FALSE,,my_datetime_property,Test,,,
+My Number Property,number,number,dealinformation,FALSE,13,FALSE,FALSE,,my_number_property,Test,,,
+My Text Property,string,text,dealinformation,FALSE,,FALSE,FALSE,,my_text_property,Test,,,
+My Textarea Property,string,textarea,dealinformation,FALSE,,FALSE,FALSE,,my_textarea_property,Test,,,
+My Single Checkbox Property,bool,booleancheckbox,dealinformation,FALSE,,FALSE,FALSE,true:true:true:1:false|false:false:false:2:false,my_single_checkbox_property,Test,,,
+My Radio Property,enumeration,radio,contactinformation,FALSE,7,FALSE,FALSE,Label 1:Description1:value_1:1:false|Label 2:Description 2:value_2:2:false,my_radio_property,Test,,,
+My File Property,string,file,contactinformation,FALSE,6,FALSE,FALSE,,my_file_property,Test,,,
+My Rich Text Property,string,html,contactinformation,FALSE,11,FALSE,FALSE,,my_rich_text_property,Test,,,
